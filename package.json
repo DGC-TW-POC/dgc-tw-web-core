@@ -1,0 +1,40 @@
+{
+  "name": "dgc-tw-web-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@fidm/asn1": "^1.0.4",
+    "@fidm/x509": "^1.2.1",
+    "bignumber.js": "^9.0.1",
+    "browserify-zlib": "^0.2.0",
+    "cbor": "^7.0.6",
+    "crypto-js": "^4.0.0",
+    "jsrsasign": "^10.3.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "net": "^1.0.2",
+    "node-inspect-extracted": "^1.0.8",
+    "sha256-uint8array": "^0.10.1",
+    "stream-browserify": "^3.0.0",
+    "tslib": "^2.3.0",
+    "typescript-json-serializer": "^3.4.4"
+  },
+  "devDependencies": {
+    "@types/bignumber.js": "^5.0.0",
+    "@types/cbor": "^6.0.0",
+    "@types/crypto-js": "^4.0.2",
+    "@types/jsrsasign": "^8.0.13",
+    "@types/lodash": "^4.14.171",
+    "@types/node": "^16.3.1"
+  }
+}
